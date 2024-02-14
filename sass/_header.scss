@@ -1,0 +1,40 @@
+header{
+    padding: 0px 169px;
+    background: url(../images/heroimage.png) no-repeat top right;
+    height: 1161px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    ul{
+        padding:2px 0px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 60px;
+    }
+    .navbar-menu-icon{
+        display: none;
+    }
+}
+a{
+    text-decoration: none;
+    color: $primary-color;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.banner{
+    margin-top: 243px;
+    width: 540px;
+}
+.banner-heading{
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 500;
+}
+
+
+

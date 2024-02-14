@@ -1,0 +1,30 @@
+footer{
+    background-color: $footer-background;
+    padding: 31px 169px;
+    color: #939EA4;
+}
+
+.footer-navbar{
+        @extend .navbar;
+        a{
+            color: $footer-nav-color;
+        }
+    }
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:46px 0px;
+}
+.span{
+    color: #939EA4;
+}
+.icons{
+    gap: 30px;
+    display: flex;
+}
+.fa-brands{
+    width: 16px;
+    height: 16px;
+}
