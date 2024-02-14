@@ -74,6 +74,7 @@ section{
     text-align: center;
     background-image: url(/images/Rectangle.png);
     padding: 100px 420px;
+    background-position: top;
 }
 .price-span{
     color: #5D6970;
@@ -102,6 +103,12 @@ section{
 }
 .container-text{
     width: 540px;
+}
+@media screen and  (max-width:1650px){
+    header{
+        background: url(/images/heroimage.png) no-repeat top right;
+        
+    }
 }
 @media screen and  (max-width:1370px) {
     .container{
